@@ -4,7 +4,7 @@ import { default as axios } from "axios";
 import express from "express";
 import cors from "cors";
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const URL = "https://api.kanye.rest/";
 
