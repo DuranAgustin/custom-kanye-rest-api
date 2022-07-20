@@ -21,7 +21,7 @@ app.use(cors());
 // });
 //something random to update
 app.get(
-  "/kanye_quotes",
+  "/",
   (req, res, next) => {
     console.log("middleware hit");
     //send it to the next line
