@@ -19,7 +19,7 @@ app.use(cors());
 //   console.log("some endpoint hit");
 //   next();
 // });
-
+//something random to update
 app.get(
   "/kanye_quotes",
   (req, res, next) => {
@@ -37,9 +37,9 @@ app.get(
   }
 );
 
-app.get("/", (req, res) => {
-  res.send("Hello Agustin");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello Agustin");
+// });
 
 // app.get("/kanye_quotes", async (req, res) => {
 //   try {
